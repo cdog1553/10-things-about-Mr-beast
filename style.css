@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding-top:800px;
+    text-align: center;
+    background: rgb(116,241,230);
+    background: linear-gradient(90deg, rgba(116,241,230,1) 0%, rgba(232,1,1,1) 50%, rgba(80,97,233,1) 100%);
+}
+#welcome{
+    margin-top: 100px;
+    position: absolute;
+     bottom:0;
+     display: table;
+     width: 100%;
+     height: 100%;
+}
+.parallax-inner
+{
+display:table-cell;
+vertical-align: middle;
+
+}
+.profile{
+    width:650px;
+    height: 550px;
+    border-radius: 25%;
+    margin-top: 150px;
+}
+#bio{
+padding:50px   
+}
+p{
+    text-align: justify;
+    font-size: 30px;
+}
+#name{
+    font-family: 'Cinzel Decorative', cursive;
+    font-size:70px;
+    color:#1fa6b5
+}
+.menu{
+margin-top: 0px;
+    position: fixed;
+    background-color:rgba(0, 246, 250, 0.6);
+    width: 100%;
+    top:0;
+    z-index: 11;
+    cursor: pointer;
+padding: 10px;
+    
+
+}
+.link{
+    display:inline;
+    padding: 9px;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    color:red;
+}
+#contact iframe{width:75%}
